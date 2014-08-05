@@ -57,9 +57,11 @@ abstract class GeneratorFormCommand extends GeneratorCommand
     $inputs = $input->getOption('inputs');
     $build_services = $this->buildServices($services);
 
+    $form_type = $this->getStringUtils()->camelCaseToUnderscore($this->form_type);
+
     $this
       ->getGenerator()
-      ->generate($module, $class_name, $form_id, $build_services, $inputs, $update_routing);
+      ->generate($module, $class_name, $form_id, $build_services, $inputs, $update_routing, $form_type);
 
     $errors = '';
     $dialog->writeGeneratorSummary($output, $errors);
