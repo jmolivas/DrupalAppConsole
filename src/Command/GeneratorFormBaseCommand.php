@@ -4,6 +4,8 @@ namespace Drupal\AppConsole\Command;
 
 class GeneratorFormBaseCommand extends GeneratorFormCommand {
 
-class GeneratorFormBaseCommand {
-
-} 
+  protected function configure()
+  {
+    parent::configure('FormBase', 'generate:form');
+  }
+}
