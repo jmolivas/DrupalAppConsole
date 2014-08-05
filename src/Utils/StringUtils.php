@@ -58,4 +58,14 @@ class StringUtils
     return strtolower(preg_replace(self::REGEX_CAMEL_CASE, '$1_$2', $camel_case));
   }
 
+  /**
+   *  Converts camel-case strings to space format
+   *  @param  String $camel_case  User input
+   *  @return String
+   */
+  public function camelCaseToSpaces($camel_case)
+  {
+    return preg_replace(self::REGEX_CAMEL_CASE, '$1 $2', $camel_case);
+  }
+
 }
