@@ -1,0 +1,10 @@
+{% extends "module/src/Form/form.php.twig" %}
+
+{% block use_class_form %}
+use Drupal\Core\Form\ConfigFormBase;
+use Drupal\Core\Config\ConfigFactoryInterface;
+{% endblock %}
+
+{% block class_declaration %}
+class {{ class_name }} extends ConfigFormBase
+{% endblock %}
