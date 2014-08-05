@@ -15,8 +15,9 @@ class FormGenerator extends Generator
    * @param  $form_id
    * @param  $update_routing
    */
-  public function generate($module, $class_name, $form_id, $services, $inputs, $update_routing)
+  public function generate($module, $class_name, $form_id, $services, $inputs, $update_routing, $form_type)
   {
+
     $parameters = array(
       'class_name' => $class_name,
       'services' => $services,
