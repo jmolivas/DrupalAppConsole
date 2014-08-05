@@ -19,7 +19,7 @@ class StringUtils
   // This REGEX captures non alphanumeric characters and non underscores
   const REGEX_MACHINE_NAME_CHARS = '@[^a-z0-9_]+@';
   // This REGEX captures
-  const REGEX_CAMEL_CASE_UNDER = '/([a-z])([A-Z])/';
+  const REGEX_CAMEL_CASE = '/([a-z])([A-Z])/';
 
   /**
    * Replaces non alphanumeric characters with underscores
