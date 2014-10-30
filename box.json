@@ -1,0 +1,13 @@
+{
+  "directories": ["src"],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": ["Tests", "tests"],
+      "in": "vendor"
+    }
+  ],
+  "main": "bin/console",
+  "output": "console.phar",
+  "stub": true
+}
