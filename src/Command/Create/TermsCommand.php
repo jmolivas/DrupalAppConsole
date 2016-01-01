@@ -16,7 +16,7 @@ use Drupal\Console\Style\DrupalStyle;
 
 /**
  * Class TermsCommand
- * @package Drupal\Console\Command\Generate
+ * @package Drupal\Console\Command\Create
  */
 class TermsCommand extends ContainerAwareCommand
 {

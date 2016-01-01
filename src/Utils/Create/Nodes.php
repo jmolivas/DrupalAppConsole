@@ -14,7 +14,7 @@ use Drupal\Core\Language\LanguageInterface;
 
 /**
  * Class Nodes
- * @package Drupal\Console\Utils
+ * @package Drupal\Console\Utils\Create
  */
 class Nodes extends Base
 {

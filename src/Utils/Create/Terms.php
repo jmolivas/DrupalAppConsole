@@ -14,7 +14,7 @@ use Drupal\Core\Language\LanguageInterface;
 
 /**
  * Class Terms
- * @package Drupal\Console\Utils
+ * @package Drupal\Console\Utils\Create
  */
 class Terms extends Base
 {

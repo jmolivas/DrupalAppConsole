@@ -17,7 +17,7 @@ use Drupal\Console\Style\DrupalStyle;
 
 /**
  * Class NodesCommand
- * @package Drupal\Console\Command\Generate
+ * @package Drupal\Console\Command\Create
  */
 class NodesCommand extends ContainerAwareCommand
 {

@@ -15,7 +15,7 @@ use Drupal\Core\Datetime\DateFormatterInterface;
 
 /**
  * Class ContentNode
- * @package Drupal\Console\Utils
+ * @package Drupal\Console\Utils\Create
  */
 abstract class Base
 {
