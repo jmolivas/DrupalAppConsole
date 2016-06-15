@@ -28,7 +28,6 @@ class Translator
      */
     private $translator;
 
-
     /**
      * @var Parser
      */

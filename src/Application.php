@@ -153,7 +153,10 @@ class Application extends BaseApplication
             return sprintf($this->trans('application.messages.version'), $this->getName(), $this->getVersion());
         }
 
-        return '<info>Drupal Console</info>';
+        return sprintf(
+            '<info>%s</info>',
+            self::NAME
+        );
     }
 
     /**
