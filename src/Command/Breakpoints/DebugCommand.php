@@ -18,6 +18,7 @@ use Symfony\Component\Yaml\Yaml;
 class DebugCommand extends Command
 {
     use ContainerAwareCommandTrait;
+
     /**
      * {@inheritdoc}
      */
